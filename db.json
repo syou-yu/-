@@ -1,0 +1,122 @@
+{
+  "User": [
+    {
+      "username": "admin",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "username": "33",
+      "password": "33",
+      "id": 2
+    },
+    {
+      "username": "ff",
+      "password": "ff",
+      "id": 3
+    },
+    {
+      "username": "cc",
+      "password": "cc",
+      "id": 4
+    },
+    {
+      "username": "ee",
+      "password": "ee",
+      "id": 5
+    },
+    {
+      "username": "dd",
+      "password": "dd",
+      "id": 6
+    }
+  ],
+  "getMenuList": [
+    {
+      "name": "多肉植物",
+      "submenu": [
+        {
+          "name": "景天科",
+          "path": "jtk"
+        },
+        {
+          "name": "百合科",
+          "path": "bhk"
+        },
+        {
+          "name": "仙人掌科",
+          "path": "xrzk"
+        },
+        {
+          "name": "番杏科",
+          "path": "fxk"
+        }
+      ]
+    }
+  ],
+  "getProducts": [
+    {
+      "title": "白牡丹",
+      "src": "/static/images/白牡丹.jpg",
+      "hotsale": "true",
+      "category": "景天科",
+      "price": 1
+    },
+    {
+      "title": "碧光环",
+      "src": "/static/images/碧光环.jpg",
+      "hotsale": "true",
+      "category": "番杏科",
+      "price": 1
+    },
+    {
+      "title": "碧玉莲",
+      "src": "/static/images/碧玉莲.jpg",
+      "hotsale": "false",
+      "category": "番杏科",
+      "price": 1
+    },
+    {
+      "title": "初恋",
+      "src": "/static/images/初恋.jpg",
+      "hotsale": "true",
+      "category": "景天科",
+      "price": 1.5
+    },
+    {
+      "title": "绯花玉",
+      "src": "/static/images/绯花玉.jpg",
+      "hotsale": "false",
+      "category": "仙人掌科",
+      "price": 1
+    },
+    {
+      "title": "黑法师",
+      "src": "/static/images/黑法师.jpg",
+      "hotsale": "true",
+      "category": "景天科",
+      "price": 1
+    },
+    {
+      "title": "虹之玉",
+      "src": "/static/images/虹之玉.jpg",
+      "hotsale": "true",
+      "category": "景天科",
+      "price": 1
+    }
+  ],
+  "cartList": [
+    {
+      "productTitle": "初恋",
+      "productSrc": "/static/images/初恋.jpg",
+      "productPrice": 1.5,
+      "id": 1
+    },
+    {
+      "productTitle": "黑法师",
+      "productSrc": "/static/images/黑法师.jpg",
+      "productPrice": 1,
+      "id": 2
+    }
+  ]
+}
