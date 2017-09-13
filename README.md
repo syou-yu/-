@@ -49,6 +49,6 @@ vue2 + vuex + vue-router + webpack + ES6 + iview + axios
 
 - 2017-9-13 待解决
 <br>
-```
-用户注册已存在于db.json中，但用户登陆时输入db.json中存在的用户名时，表单验证显示用户不存在。
-```
+
+用户注册信息已存在于db.json中，但用户登陆输入db.json中已存在的用户名时，表单验证显示用户不存在。
+
