@@ -12,8 +12,8 @@
 git clone https://github.com/syou-yu/duorou_mall.git
 
 # 进入文件夹
-cd vue2-happyfri
-
+cd duorou_mall
+ 
 # 安装依赖
 npm install
 
