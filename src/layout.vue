@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="layout-header">
-                <a href="http://localhost:8080/">
+                <a href="http://localhost:8080/#">
                         <img src="./assets/logo.png" class="layout-logo"/>   
                 </a>
                 <div v-if="this.username" class="layout-user">{{username}}</div>
@@ -79,6 +79,9 @@ import LoginForm from '@/components/loginform'
 import RegForm from '@/components/regform'
 import Cart from '@/components/cart'
 export default {
+        mounted(){
+                this.username = localStorage.getItem("username");
+        },
         data(){
         return{
                 showlogin : false,
@@ -105,7 +108,7 @@ export default {
                         this.showreg=true;
                 },
                 toggleLogout(){
-                        sessionStorage.removeItem('username');
+                        localStorage.removeItem('username');
                         this.$Message.success('注销成功!');
                         this.username='';
                 },
@@ -119,8 +122,8 @@ export default {
                         
                 },
                 onSuccessLog(data){
-                        sessionStorage.setItem("username",data);
-                        this.username = sessionStorage.getItem("username");
+                        localStorage.setItem("username",data);
+                        this.username = localStorage.getItem("username");
                         this.showlogin = false;
                         console.log(this.username)
                 }   
